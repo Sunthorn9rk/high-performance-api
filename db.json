@@ -1,0 +1,9 @@
+{
+  "users": [
+    { "id": 1, "name": "John Doe", "balance": 1000 },
+    { "id": 2, "name": "Jane Doe", "balance": 500 },
+    { "id": 3, "name": "Job Doe", "balance": 2500 },
+    { "id": 4, "name": "June Doe", "balance": 250 },
+    { "id": 5, "name": "Joe Doe", "balance": 300 }
+  ]
+}

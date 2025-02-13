@@ -1,0 +1,28 @@
+{
+  "name": "high-performance-api",
+  "version": "1.0.0",
+  "description": "ออกแบบ API ที่สามารถรองรับ 100,000 requests per second (RPS) ได้โดยไม่ให้เซิร์ฟเวอร์ล่ม และคำนึงถึงค่า server ด้วยเป็นหลัก โดยใช้ ใช้ techstack อะไรก็ได้  --- 1 request ต้อง ตรวจสอบ check user และ ตรวจสอบยอดเงิน จาก api ภายนอก",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "fastify": "^5.2.1",
+    "fastify-cors": "^6.1.0",
+    "ioredis": "^5.5.0",
+    "kafkajs": "^2.2.4",
+    "node-fetch": "^3.3.2",
+    "opossum": "^8.4.0",
+    "redis": "^4.7.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
