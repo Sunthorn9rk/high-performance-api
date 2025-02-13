@@ -1,5 +1,7 @@
 # high-performance-api
 ออกแบบ API ที่สามารถรองรับ 100,000 requests per second (RPS) ได้โดยไม่ให้เซิร์ฟเวอร์ล่ม และคำนึงถึงค่า server ด้วยเป็นหลัก โดยใช้ ใช้ techstack อะไรก็ได้  --- 1 request ต้อง ตรวจสอบ check user และ ตรวจสอบยอดเงิน จาก api ภายนอก
+![SystemArchitectureDiagram](https://github.com/user-attachments/assets/fe335836-ef9f-4a40-bb02-ccc2b861f2bd)
+
 
 # sequence diagram
 User -> API Gateway: ส่ง Request ตรวจสอบ User และ Balance
